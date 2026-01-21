@@ -2,13 +2,13 @@ import { ArrowUpRight, Github } from "lucide-react";
 import AnimatedBorderButton from "../components/AnimatedBorderButton";
 const projects = [
   {
-    title: "Fintech Dashboard",
+    title: "Expenses Tracker App",
     description:
-      "A comprehensive financial analytics platform with real-time data visualization, portfolio management, and AI-powered insights.",
+      "A simple and user-friendly application that helps users track their daily expenses by adding, viewing, and deleting expense entries. It automatically calculates the total spending and stores data locally so expenses persist even after refreshing the page.",
     image: "/projects/project1.png",
     tags: ["React", "Javascript", "Tailwindcss"],
-    link: "#",
-    github: "#",
+    link: "https://expenses-tracker-app-seven.vercel.app/",
+    github: "https://github.com/AttaUllah41531/Expenses-Tracker-App",
   },
   {
     title: "E-Commerce Platform",
@@ -77,7 +77,7 @@ export const Projects = () => {
                 <img
                   src={project.image}
                   alt={project.title}
-                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                  className="w-full h-full object-fill transition-transform duration-700 group-hover:scale-110"
                 />
                 <div
                   className="absolute inset-0 
