@@ -11,13 +11,13 @@ const projects = [
     github: "https://github.com/AttaUllah41531/Expenses-Tracker-App",
   },
   {
-    title: "E-Commerce Platform",
+    title: "Calculator App",
     description:
-      "A full-featured e-commerce solution with inventory management, payment processing, and analytics dashboard.",
+      "A modern, responsive React calculator built with Tailwind CSS — supports basic arithmetic, smooth button animations, gradient operator buttons, and mobile-friendly design.",
     image: "/projects/project2.png",
     tags: ["React", "Javascript", "Tailwindcss"],
-    link: "#",
-    github: "#",
+    link: "https://calculator-alpha-self-91.vercel.app/",
+    github: "https://github.com/AttaUllah41531/Calculator",
   },
   {
     title: "AI Writing Assistant",
