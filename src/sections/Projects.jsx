@@ -25,8 +25,8 @@ const projects = [
       "An intelligent writing tool powered by GPT-4, helping users create better content faster.",
     image: "/projects/project3.png",
     tags: ["React", "Javascript", "Tailwindcss"],
-    link: "#",
-    github: "#",
+    link: "https://registration-form-gold-five.vercel.app/signup",
+    github: "https://github.com/AttaUllah41531/Registration-Form",
   },
   {
     title: "Project Management Tool",
